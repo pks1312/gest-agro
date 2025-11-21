@@ -1,0 +1,122 @@
+.header {
+  background-color: var(--bg-card);
+  border-bottom: 2px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  background-color: rgba(248, 246, 242, 0.95);
+}
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.logo {
+  flex-shrink: 0;
+}
+.logo-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: transform 0.3s ease;
+}
+.logo-link:hover {
+  transform: scale(1.02);
+}
+.logo-img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(45, 122, 61, 0.2));
+  transition: filter 0.3s ease;
+}
+.logo-link:hover .logo-img {
+  filter: drop-shadow(0 4px 8px rgba(45, 122, 61, 0.3));
+}
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--color-green) 0%, var(--color-green-dark) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: var(--color-green);
+}
+.nav-link.active {
+  color: var(--color-green);
+  font-weight: 600;
+}
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-green) 0%, var(--color-green-dark) 100%);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(45, 122, 61, 0.3);
+}
+.header-actions {
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .header-container {
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+  .nav {
+    order: 3;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+  }
+  .header-actions {
+    order: 2;
+  }
+  .header-actions button {
+    min-width: auto;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.875rem;
+  }
+  .logo-img {
+    height: 36px;
+  }
+  .logo-text {
+    font-size: 1.25rem;
+  }
+  .logo-link {
+    gap: 0.5rem;
+  }
+}
+

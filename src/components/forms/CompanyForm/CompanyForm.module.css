@@ -1,0 +1,11 @@
+.company-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+.form-actions {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
