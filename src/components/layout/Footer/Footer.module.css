@@ -112,5 +112,34 @@
     gap: 2rem;
     margin-bottom: 2rem;
   }
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  .footer-description {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 1.5rem 0.75rem 1rem;
+  }
+  .footer-content {
+    gap: 1.5rem;
+  }
+  .footer-logo {
+    height: 32px;
+  }
+  .footer-title {
+    font-size: 1.25rem;
+  }
+  .footer-heading {
+    font-size: 1rem;
+  }
+  .footer-link {
+    font-size: 0.875rem;
+  }
+  .footer-copyright {
+    font-size: 0.8125rem;
+  }
 }
 

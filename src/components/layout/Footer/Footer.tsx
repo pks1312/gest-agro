@@ -15,8 +15,7 @@ export const Footer = () => {
               <h3 className={styles['footer-title']}>GEST AGRO</h3>
             </div>
             <p className={styles['footer-description']}>
-              Soluciones financieras profesionales para su empresa. 
-              Ofrecemos servicios de consultoría, auditoría y asesoría de alta calidad.
+              Somos un equipo de profesionales comprometidos con la modernización del sector agrícola chileno. A través de servicios especializados de auditoría, control de gestión y asesoría estratégica, integramos tecnología de vanguardia e inteligencia artificial para potenciar la eficiencia, transparencia y rentabilidad de las empresas del rubro.
             </p>
           </div>
           
@@ -39,16 +38,13 @@ export const Footer = () => {
             <h4 className={styles['footer-heading']}>Servicios</h4>
             <ul className={styles['footer-links']}>
               <li>
-                <span className={styles['footer-link']}>Consultoría Financiera</span>
+                <span className={styles['footer-link']}>Servicios de auditoría y control de gestión</span>
               </li>
               <li>
-                <span className={styles['footer-link']}>Auditoría</span>
+                <span className={styles['footer-link']}>Licencias del software de monitoreo y control</span>
               </li>
               <li>
-                <span className={styles['footer-link']}>Planificación Fiscal</span>
-              </li>
-              <li>
-                <span className={styles['footer-link']}>Servicios Contables</span>
+                <span className={styles['footer-link']}>Capacitaciones y asesorías técnicas especializadas</span>
               </li>
             </ul>
           </div>
@@ -58,14 +54,14 @@ export const Footer = () => {
             <ul className={styles['footer-contact']}>
               <li>
                 <span className={styles['contact-label']}>Email:</span>
-                <a href="mailto:contacto@finanzas.com" className={styles['footer-link']}>
-                  contacto@finanzas.com
+                <a href="mailto:gestagroprof@gmail.com" className={styles['footer-link']}>
+                  gestagroprof@gmail.com
                 </a>
               </li>
               <li>
                 <span className={styles['contact-label']}>Teléfono:</span>
-                <a href="tel:+1234567890" className={styles['footer-link']}>
-                  +1 (234) 567-890
+                <a href="tel:+56987654321" className={styles['footer-link']}>
+                  +56 9 8765 4321
                 </a>
               </li>
             </ul>
@@ -74,7 +70,7 @@ export const Footer = () => {
         
         <div className={styles['footer-bottom']}>
           <p className={styles['footer-copyright']}>
-            © {currentYear} Finanzas. Todos los derechos reservados.
+            © {currentYear} GEST AGRO. Todos los derechos reservados.
           </p>
         </div>
       </div>

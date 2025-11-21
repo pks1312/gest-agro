@@ -101,6 +101,10 @@
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
   }
+  .nav-link {
+    font-size: 0.9375rem;
+    padding: 0.4rem 0;
+  }
   .header-actions {
     order: 2;
   }
@@ -117,6 +121,29 @@
   }
   .logo-link {
     gap: 0.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .header-container {
+    padding: 0.75rem;
+  }
+  .nav {
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+  }
+  .nav-link {
+    font-size: 0.875rem;
+  }
+  .header-actions button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8125rem;
+  }
+  .logo-img {
+    height: 32px;
+  }
+  .logo-text {
+    font-size: 1.125rem;
   }
 }
 

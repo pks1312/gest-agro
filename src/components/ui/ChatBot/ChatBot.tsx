@@ -20,7 +20,7 @@ export const ChatBot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: '¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte hoy?',
+      text: '¡Hola! Soy tu asistente virtual de GEST AGRO. Puedo ayudarte a navegar por nuestro sitio, conocer nuestros servicios de gestión agrícola, agendar una cita o completar el cuestionario de evaluación. ¿En qué te puedo ayudar?',
       sender: 'bot',
       timestamp: new Date()
     }

@@ -30,24 +30,6 @@ const services: Service[] = [
     name: 'Capacitaciones y asesorías técnicas especializadas',
     description: '3 módulos por cliente sobre innovación agrícola, gestión de datos y sostenibilidad.',
     initial: 'CA'
-  },
-  {
-    id: 'consultoria',
-    name: 'Consultoría Financiera',
-    description: 'Asesoramiento estratégico para optimizar sus finanzas empresariales y tomar decisiones informadas.',
-    initial: 'CF'
-  },
-  {
-    id: 'planificacion',
-    name: 'Planificación Fiscal',
-    description: 'Estrategias personalizadas para optimizar su carga fiscal de manera legal y eficiente.',
-    initial: 'PF'
-  },
-  {
-    id: 'contabilidad',
-    name: 'Servicios Contables',
-    description: 'Gestión completa de su contabilidad y registros financieros con precisión y profesionalismo.',
-    initial: 'SC'
   }
 ]
 
@@ -64,10 +46,10 @@ export const Home = () => {
               <img src={logoCompleto} alt="Logo" className={styles['logo-img']} />
             </div>
             <h1 className={styles['hero-title']}>
-              Soluciones Financieras <span className={styles['highlight']}>Profesionales</span> para su Empresa
+              Soluciones de <span className={styles['highlight']}>Gestión</span> para su Empresa
             </h1>
             <p className={styles['hero-subtitle']}>
-              Ofrecemos servicios de consultoría, auditoría y asesoría financiera de alta calidad para ayudar a su empresa a crecer y prosperar.
+              Ofrecemos servicios especializados de auditoría, control de gestión y asesoría estratégica para el sector agrícola, integrando tecnología de vanguardia e inteligencia artificial para optimizar sus procesos.
             </p>
             <div className={styles['hero-buttons']}>
               <Button onClick={() => navigate('/citas')} variant="primary">
@@ -105,7 +87,7 @@ export const Home = () => {
                 <div className={styles['feature-icon']}></div>
                 <div className={styles['feature-text']}>
                   <h3>Experiencia Comprobada</h3>
-                  <p>Años de trayectoria en el sector financiero</p>
+                  <p>Años de trayectoria en gestión agrícola y auditoría</p>
                 </div>
               </div>
               <div className={styles['feature-item']}>
@@ -180,7 +162,7 @@ export const Home = () => {
             <h2 className={styles['section-title']}>Nuestros Servicios</h2>
             <div className={styles['title-underline']}></div>
             <p className={styles['section-description']}>
-              Ofrecemos una amplia gama de servicios financieros y contables para satisfacer todas las necesidades de su empresa.
+              Integramos tecnología de vanguardia e inteligencia artificial para potenciar la eficiencia, transparencia y rentabilidad de las empresas del sector agrícola.
             </p>
           </div>
           <div className={styles['services-grid']}>

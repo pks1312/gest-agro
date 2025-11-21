@@ -80,4 +80,34 @@
   margin-top: 0.5rem;
   font-weight: 500;
 }
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .service-card {
+    padding: 1.25rem;
+  }
+  .datetime-group {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .form-actions {
+    margin-top: 2rem;
+  }
+  .form-actions button {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .services-title {
+    font-size: 1.25rem;
+  }
+  .service-name {
+    font-size: 1rem;
+  }
+  .service-description {
+    font-size: 0.875rem;
+  }
+}
 

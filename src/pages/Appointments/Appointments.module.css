@@ -100,4 +100,49 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .appointments-page {
+    padding: 2rem 1rem;
+  }
+  .appointments-header {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 0;
+  }
+  .appointments-title {
+    font-size: 2rem;
+  }
+  .appointments-subtitle {
+    font-size: 1.125rem;
+  }
+  .appointments-content {
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+  }
+  .appointment-summary {
+    padding: 1.5rem;
+  }
+  .appointment-summary h3 {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 480px) {
+  .appointments-page {
+    padding: 1.5rem 0.75rem;
+  }
+  .appointments-title {
+    font-size: 1.75rem;
+  }
+  .appointments-subtitle {
+    font-size: 1rem;
+  }
+  .appointments-content {
+    padding: 1.5rem 1rem;
+  }
+  .appointment-summary {
+    padding: 1.25rem;
+  }
+  .summary-item {
+    font-size: 0.9375rem;
+  }
+}
 
